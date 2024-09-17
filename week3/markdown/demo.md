@@ -28,3 +28,15 @@ this is  a link to [my portfolio](https://jojolin.webflow.io/) .
 
 ## Images
 ![Soap1](image01.jpg)
+
+## Code 
+
+We can put inline code by using a tic.
+To Add an image use an '<image>' tag.
+You can add multi-line code by using three tics and the baneif tge coding langue:
+
+```
+fuction test (){
+    console.log("test");
+}
+```
