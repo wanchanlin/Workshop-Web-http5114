@@ -47,3 +47,7 @@ fuction test (){
 | HTML      | 5      |
 | Javascript| 7      |
 | CSS       | 9      |
+
+## GitHub Flavor
+> Note
+> this is a note !
