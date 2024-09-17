@@ -27,4 +27,4 @@ This is  an unirdered list:
 this is  a link to [my portfolio](https://jojolin.webflow.io/) .
 
 ## Images
-![Soap1](images01.jpg)
+![Soap1](image01.jpg)
