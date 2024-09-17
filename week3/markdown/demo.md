@@ -35,7 +35,7 @@ We can put inline code by using a tic.
 To Add an image use an '<image>' tag.
 You can add multi-line code by using three tics and the baneif tge coding langue:
 
-```
+``` javascript
 fuction test (){
     console.log("test");
 }
