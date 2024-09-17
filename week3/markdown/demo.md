@@ -49,5 +49,5 @@ fuction test (){
 | CSS       | 9      |
 
 ## GitHub Flavor
-> Note
-> this is a note !
+> [!Note]
+> this is a note!
