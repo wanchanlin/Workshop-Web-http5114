@@ -25,3 +25,6 @@ This is  an unirdered list:
 ## Links
 
 this is  a link to [my portfolio](https://jojolin.webflow.io/) .
+
+## Images
+![Soap1](images01.jpg)
