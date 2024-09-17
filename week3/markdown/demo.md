@@ -40,3 +40,8 @@ fuction test (){
     console.log("test");
 }
 ```
+| Lanaguege | Rating |
+| --------- | ------ |
+| HTML      | 5      |
+| Javascript| 7      |
+| CSS       | 9      |
