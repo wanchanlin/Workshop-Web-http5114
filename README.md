@@ -1,12 +1,10 @@
 # http5114
-Files form HTTP5114 course.
-Make a small change
+HTTP5114 - Web Development Workshop
 
-## sraing a new project
+This repository contains files and resources for the HTTP5114 Web Development Workshop at Number College. This hands-on course emphasizes practical skills in web development, covering:
 
-1. Make a new repo on github.com
-2. Open your terminal 
-3. Nagivate your terminal to project desitination
-4. Clone the repo
-5. Change directory in to the new folder
-6. Open CS code and point it to the same folder
+Building and styling web pages with HTML, CSS, and JavaScript
+Implementing responsive design and cross-browser compatibility
+Working with modern web development tools and frameworks
+Project-based learning to apply skills in real-world scenarios
+This repository includes exercises, projects, and supporting materials to reinforce web development techniques.
