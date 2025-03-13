@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async, Await, Promise Demo</title>
+</head>
+
+<body>
+
+    <h1>Async, Await, Promise Demo</h1>
+
+    <div id="insult"></div>
+
+    <script>
+
+        let url = 'https://pages.codeadam.ca/smurfs/api/insult';
+
+        console.log('This will run first');
+
+        async function getInsult() {
+            let response = await fetch(url);
+            let data = await response.json();
+
+            console.log(data);
+            console.log(data.insult);
+
+            let insult = document.getElementById('insult');
+            insult.innerHTML = data.insult;
+
+            console.log('This will run fourth');
+        }
+
+        console.log('This will run second');
+
+        getInsult();
+
+        console.log('This will run third');
+
+
+
+
+        //--------------------------------------------------------------------------
+        // let url = 'https://pages.codeadam.ca/smurfs/api/insult';
+        // console.log('This will run first');
+        // fetch(url).then((response) => {
+        //     console.log('This will run Third');
+        //     console.log(response);
+        //     return response.json();
+
+        // }).then((data) => {
+        //     console.log('This will run Fourth');
+        //     console.log(data);
+        //     console.log(data.insult);
+
+        //     let insult = document.getElementById('insult');
+        //     insult.innerHTML = data.insult;
+
+        // });
+        // console.log('This will run Second');
+
+    </script>
+</body>
+
+</html>
